@@ -8,7 +8,7 @@ var board = {
 };
 
 $('.create-column').click(function() {
-	var columnName = prompt('Wpisz nazwę kolumny');
+	var columnName = prompt('Project name');
 	$.ajax({
     		url: baseUrl + '/column',
     		method: 'POST',
